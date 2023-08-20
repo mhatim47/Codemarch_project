@@ -1,0 +1,32 @@
+/**********************************************/
+
+/* Add border around the content */
+body {
+    border: 3px solid black; /* Add a solid border*/
+    padding: 20px; /* Add spaces around the content */
+}
+
+/* Change the list items color and font family  */
+
+ul li {
+    color: red;
+    font-family: fantasy;
+    
+}
+
+/*Select all element with id 'f-span'*/
+#f-span {
+    color: yellow;
+    font-size: 30px; /* change the font sixz*/
+    font-weight: bold;  /* change the font weight*/
+    font-family: 'Courier New', Courier, monospace; /* change the font family*/
+}
+
+/* Select all element with the class 'Parg'*/
+.Parg {
+    font-family: fantasy;
+    word-spacing: 2px; /*Add some space bettwen words*/
+    font-size: 18px;
+    
+}
+/**********************************************/

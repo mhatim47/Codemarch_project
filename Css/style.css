@@ -1,0 +1,35 @@
+/* *************************************** */
+
+body {
+    border: 2px solid black; /* Add a border around the page */
+}
+
+header {
+    background-color: #ffa500; /* setting the background color using the hexadecimal  vlaue */
+    width: 90%;
+    padding: 15px 25px; /* Add some spaces around the content */
+    margin: 20px auto; /* set the margin-left/right to auto to center the header element */
+}
+
+h1 {
+    color: #100180;/* setting the text color using the hexadecimal  vlaue */
+    
+}
+
+p {
+    background-color:darkmagenta; /* setting the background color using a named color */
+    color: rgb(255, 255, 255); /* setting the text color using the RGB color vlaue */
+    padding: 15px 25px;
+    margin: 10px auto; /* setting the margin-left/right to auto to center the paragraph */
+    width: 90%;
+}
+
+.box {
+    background-color: #6495ed; /* setting the background color using the hexadecimal  vlaue */
+    width: 200px;
+    height: 200px;
+    margin: 30px auto; /* center the box using the margin */
+    border: 2px solid black;
+    border-radius: 15px; /* add some curve to the border */
+}
+/* *************************************** */

@@ -1,0 +1,61 @@
+/* ****************************** */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 20px 10px;
+    background-color: rgb(2 84 100);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+main {
+    margin: 45px 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 8px 10px 12px 1px #0000007a
+}
+
+h2 {
+    margin: 20px;
+}
+
+figure {
+    width: 100%;
+    border-radius: inherit;
+    overflow: hidden;
+    
+}
+
+img {
+    display: block;
+    width: 100%;
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: rotate(4deg) scale(1.1);
+}
+
+
+footer {
+    text-align: center;
+}
