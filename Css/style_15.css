@@ -1,0 +1,258 @@
+/* ******************* */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    --nav-bg: rgb(55 53 52);
+    --sec-1-bg:rgb(253 242 233);
+    --sec-2-bg:rgb(33 31 36);
+    --card-bg:rgb(36 37 42);
+    --coustom-color-1:rgb(230 126 34);
+    --coustom-color-2:rgb(247 0 55);
+    --f-color:rgb(123 122 107);
+}
+
+nav {
+    overflow: hidden;
+    background-color: var(--nav-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px 0px;
+    overflow: hidden;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 120px;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 35px;
+    margin-right: 7px;
+}
+
+.logo h2 {
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+
+ul li {
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 5px 8px;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: var(--coustom-color-1);
+}
+
+
+/* -------------------------------------------------------- */
+
+.hero-sec {
+    background-color: var(--sec-1-bg);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 30px;
+    
+}
+
+.left {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 372px;
+}
+.left h1 {
+    font-size: 43px;
+}
+.h1-span {
+    text-transform: capitalize;
+    color: var(--coustom-color-1);
+}
+.left > p {
+    line-height: 25px;
+    color: var(--f-color);
+    padding-right: 60px;
+    margin: 30px 0px;
+}
+
+#btn-link {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 8px;
+    background-color: var(--coustom-color-1);
+    color: white;
+    width: fit-content;
+    margin-bottom: 60px;
+}
+
+.contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 402px;
+    color: var(--f-color);
+    font-weight: bold;
+}
+
+.img-contanier img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-contanier figure {
+    border-radius: 50%;
+    width: 45px;
+    aspect-ratio: 1;
+    display: inline-block;
+    border: 2px solid white;
+    margin: 0px -18px 0px 0px;
+    overflow: hidden;
+}
+
+#p-span{
+    color: var(--coustom-color-1);
+    font-weight: bold;
+}
+
+/* ====================== */
+
+.right {
+    overflow: hidden;
+    
+}
+.right img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+
+.services-sec {
+    background-color: var(--sec-2-bg);
+    overflow: hidden;
+    
+}
+
+header {
+    padding: 30px 175px;
+    text-align: center;
+    color: white;
+}
+
+#h2-header {
+    text-transform: uppercase;
+    position: relative;
+    margin: 25px 0px;
+}
+
+#h2-header::before,
+#h2-header::after {
+    content: '';
+    position: absolute;
+    background-color: var(--coustom-color-2);
+    bottom: -20px;
+    width: 100px;
+    height: 0.5px;
+}
+
+#h2-header::before {
+    left: 50%;
+    margin-left: -46px;    
+}
+
+#h2-header::after{
+    height: 3px;
+    width: 30px;
+    margin-left: -10px;
+    left: 50%;
+    bottom: -21.5px;
+}
+
+#h2-span {
+    color: var(--coustom-color-2);
+}
+#header-p {
+    margin-top: 50px;
+}
+
+
+
+/* =================== */
+
+
+.card-contanier {
+    margin: 40px auto;
+    padding: 0px 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 20px;
+    color: white;
+    width: 100%;
+}
+
+.card {
+    background-color: var(--card-bg);
+    box-shadow: 1px 1px 4px 4px #0000001a;
+}
+
+.card-icon img {
+    width: 50px;
+}
+
+
+.top-card {
+    padding: 40px 30px 30px;
+    border-bottom: 1.5px solid #1d1e23;
+}
+
+.top-card h4 {
+    margin-top: 20px;
+}
+
+article {
+    padding: 30px;
+}
+
+article  {
+    font-size: small;
+    line-height: 23px;
+    color: #676769;
+}
+
+#read-more {
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
